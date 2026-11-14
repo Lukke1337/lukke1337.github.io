@@ -1,0 +1,89 @@
+body {
+  background-image: url("https://picsum.photos/1200/800");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 200px;
+  height: 500px;
+  float: left;
+  background-color: rgba(100, 149, 237, 0.7);
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 8px 15px;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(65, 105, 225, 0.8);
+  border-bottom: 1px solid white;
+}
+
+.menu ul ul a {
+  padding-left: 30px;
+  background-color: rgba(30, 80, 200, 0.8);
+}
+
+.menu a:hover {
+  background-color: navy;
+}
+
+.wrapper {
+  width: 660px;
+  height: 460px;
+  float: left;
+  background-color: #79a6f6;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.wrapper img {
+  width: 200px;
+  background-color: white;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  background-color: #366799;
+  color: white;
+  padding: 8px;
+}
+
+td {
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #c9def4;
+}
+
+tr:nth-child(odd) {
+  background-color: #8bb4f7;
+}
+
+.bottom {
+  clear: both;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.bottom p {
+  margin: 5px 0;
+}
